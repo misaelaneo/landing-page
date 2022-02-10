@@ -1,1 +1,1 @@
-# landing-page
+This is the flexbox assignment to create a landing page.
