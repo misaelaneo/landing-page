@@ -70,10 +70,60 @@ h1 {
 .hero-button {
     border-radius: 8px;
     background-color: white;
-    color: black;
+    color: rgb(30, 55, 109);
     font-size: 20px;
     padding: 4px;
     padding-right: 12px;
     padding-left: 12px;
     border-style: none;
+}
+
+.thumbnails {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px;
+    padding-bottom: 240px;
+}
+
+.thumbnail-images {
+    display: flex;
+    height: 500px;
+    justify-content: space-between;
+    background-color: white !important;
+    gap: 24px;
+}
+
+.thumbnail-image{
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+    background-color: white !important;
+}
+
+.thumbnail-text {
+    color: black;
+    background-color: white !important;
+    font-size: 24px;
+    flex-wrap: wrap;
+}
+
+.image {
+    background-color: white !important;
+}
+
+.thumbnail-1 {
+    display: flex;
+    flex-direction: column;
+    background-color: white !important;
+    text-align: center;
+    max-width: 300px;
+}
+
+h2 {    
+    background-color: white !important;
+    color: black;
+    font-size: 48px;
 }
