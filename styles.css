@@ -1,8 +1,10 @@
 * {
     font-family: 'Roboto' , sans-serif;
-    background-color: rgb(30, 34, 54);
+    background-color: white;
     color: white;
 }
+
+
 
 ul{
     display: flex;
@@ -16,12 +18,14 @@ ul{
 a {
     text-decoration: none;
     color: white;
+    background-color: rgb(39, 39, 68);
 }
 
 .header {
     display: flex;
     height: 48px;
     justify-content: space-evenly;
+    background-color: rgb(39, 39, 68);
 }
 
 .logo  {
@@ -31,23 +35,28 @@ a {
     gap: 16px;
     color: white;
     font-weight: bold;
+    background-color: rgb(39, 39, 68);
 }
+
 
 .hero {
     display: flex;
     height: 500px;
     padding: 150px;
     justify-content: center;
+    background-color: rgb(39, 39, 68);
 }
 
 .hero-text {
     padding-right: 50px;
     width: 500px;
+    background-color: rgb(39, 39, 68);
 }
 
 .hero-image {
     border-radius: 8px;
     height: 500px;
+    background-color: rgb(39, 39, 68);
 }
 
 h1 {
@@ -56,6 +65,7 @@ h1 {
     color: white;
     font-size: 48px;
     font-weight:bolder;
+    background-color: rgb(39, 39, 68);
 }
 
 .logo-img {
@@ -65,6 +75,7 @@ h1 {
 
 .hero-p {
     margin-top: 4px;
+    background-color: rgb(39, 39, 68);
 }
 
 .hero-button {
@@ -126,4 +137,80 @@ h2 {
     background-color: white !important;
     color: black;
     font-size: 48px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px;
+    background-color: rgb(182, 182, 182);
+    justify-content: center;
+
+}
+
+.quote-text {
+    font-size: 48px;
+    font-style: italic;
+    width: 900px;
+    margin-bottom: 0;
+    color: #252323;
+    background-color: rgb(182, 182, 182);
+}
+
+.quote-name {
+    font-size: 32px;
+    margin-top: 20px;
+    align-self: flex-end;
+    width: 740px;
+    color: #252323;
+    background-color: rgb(182, 182, 182);
+}
+
+.button-section {
+    display: flex;
+    padding: 100px;
+    padding-right: 180px;
+    padding-left: 180px;
+    gap: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 350px;
+    margin-right: 350px;
+    background-color: rgb(45, 89, 185);
+    border-radius: 16px;
+    justify-content: center;
+}
+
+.buttonsection-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(45, 89, 185);
+}
+
+.buttonsection-h2 {
+    background-color: rgb(45, 89, 185);
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.buttonsection-p {
+    background-color: rgb(45, 89, 185);
+    color: white;
+    font-size: 24px;
+}
+
+.button {
+    background-color: rgb(45, 89, 185);
+    color: white;
+    font-size: 28px;
+    border-radius: 8px;
+    padding: 4px;
+    padding-right: 24px;
+    padding-left: 24px;
+    border-style: solid;
+    border-color: white;
+
 }
